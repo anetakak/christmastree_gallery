@@ -22,7 +22,7 @@ body {
 	position: relative;
 	height: 50vh;
 	color: #ddd;
-	background-image: url("../images/hero_bg.jpg");
+	background-image: url("../images/hero_bg_min.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -131,6 +131,9 @@ svg {
 	}
   }
   @media (min-width: 768px) {
+	.header {
+		background-image: url("../images/hero_bg.jpg");
+	}
 	.heading {
 		font-size: 3rem;
 	}
