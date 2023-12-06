@@ -68,21 +68,22 @@ svg {
 	height: 2em;
 }
 .text {
+	margin: auto;
 	padding: 0.5em 1em;
 	font-size: 1.5rem;
 	line-height: 150%;
+	max-width: 1200px;
 }
 
 .bold {
 	font-weight: bold;
 }
 .offer {
-	padding-top: 0.5em;
 	margin: auto;
+	margin-bottom: 0.5em;
+	padding-top: 0.5em;
 	text-align: left;
-	max-width: 1200px;
 	background-color: #c2d2c5;
-	/* border: 10px dotted #fff; */
 	box-shadow: 0 0px 5px black;
 }
 .gallery-box {
@@ -152,7 +153,6 @@ a {
 }
 @media (min-width: 768px) {
 	.header {
-		margin-bottom: 1.5em;
 		background-image: url("../images/hero_bg.jpg");
 	}
 	.heading {
